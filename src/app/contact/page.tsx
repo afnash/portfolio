@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const ContactLink = ({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) => (
   <motion.a
@@ -36,7 +35,7 @@ export default function Contact() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="mt-6 text-xl text-gray-300"
           >
-            I'm always open to new opportunities and collaborations. Feel free to reach out!
+            I&apos;m always open to new opportunities and collaborations. Feel free to reach out!
           </motion.p>
 
           <motion.div

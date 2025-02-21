@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
           className="text-center sm:text-left"
         >
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Hi, I'm Afnash Ali P
+            Hi, I&apos;m Afnash Ali P
           </h1>
           
           <motion.p 
@@ -87,7 +86,7 @@ export default function Home() {
               <h3 className="text-lg font-medium text-purple-400">Organizer</h3>
               <p className="text-gray-400">Make-A-Ton 7.0</p>
               <p className="text-sm text-gray-500 mt-2">October 2024</p>
-              <p className="mt-4 text-gray-300">Organized South India's largest MLH-powered hackathon.</p>
+              <p className="mt-4 text-gray-300">Organized South India&apos;s largest MLH-powered hackathon.</p>
             </div>
           </div>
         </motion.div>

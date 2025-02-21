@@ -60,7 +60,7 @@ export default function Skills() {
           </h1>
 
           <p className="text-xl text-gray-300 mb-12">
-            Here's a comprehensive overview of my technical skills and areas of expertise.
+            Here&apos;s a comprehensive overview of my technical skills and areas of expertise.
           </p>
 
           <div className="grid gap-8 md:grid-cols-2">
@@ -84,7 +84,7 @@ export default function Skills() {
           >
             <h2 className="text-2xl font-semibold text-gray-200 mb-4">Continuous Learning</h2>
             <p className="text-gray-300">
-              I'm constantly expanding my skill set through online courses, practical projects, and
+              I&apos;m constantly expanding my skill set through online courses, practical projects, and
               community involvement. Currently exploring advanced concepts in web development and
               cloud technologies.
             </p>
