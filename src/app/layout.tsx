@@ -24,6 +24,12 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   authors: [{ name: "Afnash Ali P" }],
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
+    shortcut: '/favicon.svg',
+  },
   openGraph: {
     title: "Afnash Ali P - Computer Science Student & Developer",
     description: "Portfolio of Afnash Ali P - A passionate Computer Science student at SOE, CUSAT",

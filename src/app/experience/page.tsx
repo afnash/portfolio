@@ -11,13 +11,13 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Squad Member",
-    company: "Talrop",
-    period: "April 2024 - Present",
+    title: "Organizer",
+    company: "Make-A-Ton 7.0",
+    period: "October 2024",
     description: [
-      "Contributing to building hybrid ecosystems for different industries.",
-      "Working with cutting-edge technologies and frameworks.",
-      "Collaborating with cross-functional teams to deliver high-quality solutions."
+      "Organized South India&apos;s largest MLH-powered hackathon.",
+      "Coordinated with multiple teams and stakeholders.",
+      "Managed event logistics and participant experience."
     ]
   },
   {
@@ -31,13 +31,13 @@ const experiences: Experience[] = [
     ]
   },
   {
-    title: "Organizer",
-    company: "Make-A-Ton 7.0",
-    period: "October 2024",
+    title: "Squad Member",
+    company: "Talrop",
+    period: "April 2024 - Present",
     description: [
-      "Organized South India&apos;s largest MLH-powered hackathon.",
-      "Coordinated with multiple teams and stakeholders.",
-      "Managed event logistics and participant experience."
+      "Contributing to building hybrid ecosystems for different industries.",
+      "Working with cutting-edge technologies and frameworks.",
+      "Collaborating with cross-functional teams to deliver high-quality solutions."
     ]
   }
 ];
