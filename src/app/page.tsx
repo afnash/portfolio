@@ -8,30 +8,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 sm:pt-24 sm:pb-20">
-        <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            className="absolute right-0 top-10 sm:right-8 sm:top-20 z-10"
-          >
-            <div className="relative w-40 h-40 sm:w-56 sm:h-56">
-              <Image
-                src="/profile.jpg"
-                alt="Afnash Ali P"
-                fill
-                className="rounded-full object-cover border-4 border-purple-500"
-                priority
-                sizes="(max-width: 640px) 160px, 224px"
-                style={{ objectPosition: '50% 30%' }}
-              />
-            </div>
-          </motion.div>
+        <div className="relative flex flex-col items-center sm:items-start sm:flex-row sm:justify-between gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center sm:text-left max-w-2xl"
+            className="text-center sm:text-left max-w-2xl order-2 sm:order-1"
           >
             <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hi, I&apos;m Afnash Ali P
@@ -78,6 +60,25 @@ export default function Home() {
                 Get in Touch
               </Link>
             </motion.div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+            className="order-1 sm:order-2"
+          >
+            <div className="relative w-40 h-40 sm:w-56 sm:h-56">
+              <Image
+                src="/profile.jpg"
+                alt="Afnash Ali P"
+                fill
+                className="rounded-full object-cover border-4 border-purple-500"
+                priority
+                sizes="(max-width: 640px) 160px, 224px"
+                style={{ objectPosition: '50% 30%' }}
+              />
+            </div>
           </motion.div>
         </div>
 
