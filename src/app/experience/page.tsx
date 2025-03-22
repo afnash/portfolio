@@ -11,6 +11,17 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "Backend Developer",
+    company: "Sargam CUSAT",
+    period: "March 2025",
+    description: [
+      "Developed backend services for the Sargam CUSAT platform.",
+      "Sargam is the official cultural fest of Cochin University of Science and Technology.",
+      "Managed user data and event registrations, profile management, and results.",
+      "visit live: https://sargam.cusat.ac.in/"
+    ]
+  },
+  {
     title: "Organizer",
     company: "Make-A-Ton 7.0",
     period: "October 2024",

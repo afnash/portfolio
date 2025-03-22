@@ -31,7 +31,7 @@ export default function Skills() {
     },
     {
       title: "Web Technologies",
-      skills: ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3", "JavaScript"]
+      skills: ["React", "Tailwind CSS", "HTML5", "CSS3"]
     },
     {
       title: "Backend & Databases",
@@ -39,11 +39,11 @@ export default function Skills() {
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "Linux", "VS Code", "PyCharm", "Postman"]
+      skills: ["Git", "Linux", "VS Code", "PyCharm","Supabase","Github"]
     },
     {
       title: "Soft Skills",
-      skills: ["Team Leadership", "Communication", "Problem Solving", "Fast Learning"]
+      skills: ["Team Leadership", "Communication", "Problem Solving", "Fast Learning","Networking"]
     }
   ];
 
